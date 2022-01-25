@@ -10,7 +10,7 @@ pip3 install gunicorn
 
 
 ### 实例
-现在后台运行(autoreg目录下)
+先在后台运行这条命令启动服务端,建议配合screen或者其他后台运行命令(autoreg目录下)
 ```
 gunicorn -b 127.0.0.1:10086 server:server
 ```
@@ -19,13 +19,21 @@ gunicorn -b 127.0.0.1:10086 server:server
 python3 autoreg.py -d google.com -s '2022-01-18 13:00:00' -p 10m -t 2 -u 'https://xxxxxxxx'
 ```
 命令:-d 创建任务名为google.com,并且记录log到名为google.com的文件中
+
 命令:-s 从2022-01-18 13:00:00就开始发送http请求(忽略此命令就立刻开始,时间早于系统时间也立刻开始)
+
 命令:-p 持续10分钟
+
 命令:-t 每个2秒发送一次
+
 命令:-u http请求为: http://xxxxxxx
+
 其他命令
+
 命令:-l 显示当前所有任务
+
 命令:-r 删除某任务
+
 
 ### API申请
 推荐使用dynadot的API,简单! [点我申请账号](http://www.dynadot.com/?s9R7O6J9A6We7Q7A)
