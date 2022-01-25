@@ -37,9 +37,11 @@ python3 autoreg.py -d google.com -s '2022-01-18 13:00:00' -p 10m -t 2 -u 'https:
 
 ### API申请
 推荐使用dynadot的API,简单! [点我申请账号](http://www.dynadot.com/?s9R7O6J9A6We7Q7A)
+
 申请完账号后在 Tools->API中就能创建API,替换下面链接的xxxxxxxxxxx,在把google.com替换成自己想要的域名就可以了
+
 https://api.dynadot.com/api3.xml?key=**xxxxxxxxxxx**&command=register&domain=**google.com**&duration=1&currency=USD
 
 ### 注意
-请求间隔无比大于1秒,不然容易被封API,也不要长时间占用API
+请求间务必大于1秒,不然容易被封API,也不要长时间占用API
 
