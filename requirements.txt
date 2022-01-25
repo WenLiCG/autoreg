@@ -1,4 +1,0 @@
-colorama==0.4.4
-Flask==2.0.2
-psutil==5.9.0
-requests==2.27.1
