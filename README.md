@@ -45,3 +45,8 @@ https://api.dynadot.com/api3.xml?key=xxxxxxxxxxx&command=register&domain=google.
 ### 注意
 请求间务必大于1秒,不然容易被封API,也不要长时间占用API
 
+
+### 以后准备的更新
+1.如果添加多任务很容易同时发送很多API请求,API的请求间隔不应该设置到单任务中,应该统一管理.
+
+2.重启后任务都会消失,需要设置任务记录保存,重启后继续进行
