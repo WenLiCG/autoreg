@@ -50,3 +50,8 @@ https://api.dynadot.com/api3.xml?key=xxxxxxxxxxx&command=register&domain=google.
 1.如果添加多任务很容易同时发送很多API请求,API的请求间隔不应该设置到单任务中,应该统一管理.
 
 2.重启后任务都会消失,需要设置任务记录保存,重启后继续进行
+
+
+## Collaborators
+
+[Hanbings](https://github.com/Hanbings)
