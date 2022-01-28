@@ -12,7 +12,7 @@ pip3 install gunicorn
 ### 实例
 先在后台运行这条命令启动服务端,建议配合screen或者其他后台运行命令(autoreg目录下)
 ```
-gunicorn -b 127.0.0.1:10086 server:server
+screen -d -m gunicorn -b 127.0.0.1:10086 server:server
 ```
 然后
 ```
