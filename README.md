@@ -38,6 +38,8 @@ python3 autoreg.py -d google.com -s '2022-01-18 13:00:00' -p 10m -t 2 -u 'https:
 
 命令:-r 删除某任务
 
+### 查看现在的系统时间
+date -R
 
 ### API申请
 推荐使用dynadot的API,简单! [点我申请账号](http://www.dynadot.com/?s9R7O6J9A6We7Q7A)
