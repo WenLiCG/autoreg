@@ -3,7 +3,7 @@
 ### 安装
 系统基于debian 10,其他debian应该也可以
 ```
-apt-get update && apt-get install -y screen python3 python3-pip
+apt-get update && apt-get install -y screen python3 python3-pip git
 git clone https://github.com/WenLiCG/autoreg.git
 cd autoreg
 pip3 install -r requirements.txt
