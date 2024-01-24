@@ -14,10 +14,12 @@ pip3 install gunicorn
 ### 实例
 先在后台运行这条命令启动服务端,建议配合screen或者其他后台运行命令(autoreg目录下)
 ```
+cd autoreg
 screen -d -m gunicorn -b 127.0.0.1:10086 server:server
 ```
 然后
 ```
+cd autoreg
 python3 autoreg.py -d google.com -s '2022-01-18 13:00:00' -p 10m -t 2 -u 'https://xxxxxxxx'
 ```
 命令:-d 创建任务名为google.com,并且记录log到名为google.com的文件中
